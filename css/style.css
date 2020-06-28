@@ -318,11 +318,11 @@ margin-left: -3pxpx;
   content: "";
   width: 488px;
   height: 502px;
-  background: url("/img/decor-20200619T114750Z-001/gates.jpg") center center/cover no-repeat;
+  background: url("./img/decor-20200619T114750Z-001/gates.jpg") center center/cover no-repeat;
 }
 .about__desc{
   margin: -402px 454px 27px 750px;
-  background: url("/img/decor-20200619T114750Z-001/mountains.jpg") right top no-repeat;
+  background: url("./img/decor-20200619T114750Z-001/mountains.jpg") right top no-repeat;
   padding: 80px 98px;
   width: 780px;
   height: 454px;
