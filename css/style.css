@@ -33,6 +33,9 @@ p{
   box-sizing: border-box;
 }
 
+.hero {
+  height: 569px;
+}
 
 .container{
   height: 789px;
