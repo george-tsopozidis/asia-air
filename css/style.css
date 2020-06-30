@@ -369,6 +369,7 @@ li.tour__item:last child{
 .about__text p:last-child{
   margin-bottom: 0;
 }
+  <!--
 .footer__container-content{
  position: relative;
 }
@@ -419,3 +420,4 @@ li.tour__item:last child{
 .socials__item:last-child{
   margin-right: 0;
 }
+--->
