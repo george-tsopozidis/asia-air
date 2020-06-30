@@ -33,12 +33,7 @@ p{
   box-sizing: border-box;
 }
 
-.main-page-wrapper{
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  background: url("../img/bg-20200619T114647Z-001/hero.jpg") center top no-repeat, url("../img/bg-20200619T114647Z-001/bottom-pic.jpg") right bottom no-repeat;
-}
+
 .container{
   height: 789px;
  }
