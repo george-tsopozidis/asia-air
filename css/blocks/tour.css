@@ -1,0 +1,117 @@
+.tour {
+  margin-bottom: 164px;
+}
+
+.tour__block {
+  margin-bottom: 51px;
+}
+
+.tour__title {
+  font-size: 37px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 41px;
+}
+
+.tour__fire-img {
+  width: 21px;
+  height: 28px;
+}
+
+.tour__info{
+  padding: 0 23px;
+}
+
+.tour__icon-thai{
+  height: 114%;
+  width: 101%;
+  object-fit: cover;
+}
+
+.tour__icon-bali{
+  height: 124%;
+  width: 101%;
+  object-fit: cover;
+}
+
+.tour__icon-indo{
+  height: 124%;
+  width: 101%;
+  object-fit: cover;
+  margin-left: -1px;
+  margin-top: -38px;
+}
+
+.tour__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour__item{
+  width: calc(100% / 3 - 18px);
+  min-height: 468px;
+  background: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  padding-bottom: 33px;
+}
+
+.tour__img{
+  height: 151px;
+  overflow: hidden;
+  border-radius: 3px;
+  margin-bottom: 27px;
+}
+
+li.tour__item:last-child{
+  margin-right: 0;
+}
+
+.tour__title-info{
+  margin-left: 1px;
+  position: relative;
+  top: -1px;
+  margin-bottom: 21px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.tour__description-icon {
+  margin-left: 7px;
+  margin-top: 1px;
+}
+
+.tour__description-display {
+  display: inline-block;
+  margin-right: 21px;
+}
+
+.tour__description-text{
+  display: inline-flex;
+  vertical-align: top;
+  font-size: 17px;
+  font-weight: normal;
+  color: #666666;
+  margin-left: 5px;
+  margin-top: 6px;
+}
+
+.tour__description {
+  margin-bottom: 25px;
+}
+
+.tour__text{
+  width: 316px;
+  height: 71px;
+  font-size: 15px;
+  position: relative;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: #303030;
+  margin-bottom: 35px;
+  margin-top: 3px;
+}
