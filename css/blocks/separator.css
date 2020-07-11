@@ -1,0 +1,23 @@
+.separator {
+  color: #ffffff;
+  background: url('../../img/decor-20200619T114750Z-001/couple.png') right 27% bottom no-repeat, 
+  url("../../img/bg-20200619T114647Z-001/middleline.jpg") 50%/cover no-repeat;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.separator .container {
+  min-width: 1219px;
+}
+
+.separator__content {
+  max-width: 43%;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.1;
+}
