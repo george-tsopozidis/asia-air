@@ -1,0 +1,165 @@
+.main__container {
+  padding-bottom: 166px;
+}
+
+
+.page-content .container {
+  min-width: 1219px;
+}
+
+.page-content {
+  background: #ffffff;
+  color: #303030;
+  padding: 100px 0 166px 0;
+}
+
+.page-content .button {
+  margin-left: 7px;
+}
+
+.page-content .button--color--white {
+  padding: 18px 39px;
+}
+
+.services {
+  margin-bottom: 77px;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.service:last-child {
+  margin-bottom: 0;
+}
+
+.service__img {
+  margin-right: 4%;
+  padding-top: 8px;
+  padding-right: 7px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.service__content {
+  flex: 1px;
+}
+
+.service__item-elem {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service__title {
+  padding-left: 6px;
+  padding-top: 26px;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 27px;
+  color: #000000;
+}
+
+.service__desc {
+  line-height: 1.7;
+  margin-bottom: 54px;
+  width: 676px;
+  height: 151px;
+  padding-left: 7px;
+  font-size: 18px;
+  padding-top: 6px;
+  letter-spacing: -1px;
+  word-spacing: 4px;
+}
+/*review page*/
+
+.reviews__item {
+  margin-bottom: 20px;
+}
+
+.reviews {
+  column-count: 2;
+  column-gap: 30px;
+  margin-bottom: 80px;
+}
+
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background: #f4f5f5;
+}
+
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.review__user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1b1e;
+  margin-bottom: 14px;
+  text-decoration: none;
+}
+
+.review__user:hover {
+  text-decoration: underline;
+  color: #2e77a4;
+}
+
+.review__user::after {
+  content: url("../../img/icons-20200619T114801Z-001/socials/vk-blue.png");
+  height: 29px;
+}
+
+.review__photo {
+  margin-right: 25px;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.review__tag {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag {
+  font-size: 13px;
+  font-weight: normal;
+  color: #303030;
+  padding: 10px 16px;
+  border-radius: 50px;
+  background: #e7e7e7;
+}
+
+.tag--bg--green:hover {
+  cursor: pointer;
+  background: #b9eae4;
+}
+
+.review__title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1a1b1e;
+  margin-bottom: 30px;
+}
+
+.review__content-text {
+  margin-bottom: 50px;
+}
+
+.review__date {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1a1b1e;
+}
